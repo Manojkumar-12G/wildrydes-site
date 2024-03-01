@@ -1,0 +1,110 @@
+/* TwoGridsSection.css */
+
+.two-grids-section {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+  }
+  
+  .first-grid {
+    padding-left: 60px;
+    padding-top: 10px;
+    text-align: left;
+    /* margin-left: 10%; */
+
+    background-color: darkolivegreen;
+    /* border-radius: 8px; */
+  }
+  
+  .first-grid h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .firstgridpara {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color:white
+  }
+  
+  .first-grid .copyright {
+    font-size: 1rem;
+    color: white;
+    margin-top:50px;
+  }
+  
+  .second-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+  }
+  
+  .section {
+    padding: 10px;
+    background-color:darkolivegreen;
+    /* border-radius: 8px; */
+    text-align: center;
+  }
+  
+  .section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .line {
+    height: 2px;
+    background-color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul li {
+    margin-bottom: 8px;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  ul li a:hover {
+    text-decoration: underline;
+  }
+  
+
+
+  /* FollowUsSection.css */
+
+.follow-us-section {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 2rem;
+    color: #007bff; /* Set icon color as needed */
+    text-decoration: none;
+  }
+  
+  /* Adjust the icon color on hover */
+  .social-icons a:hover {
+    color: #0056b3;
+  }
+  

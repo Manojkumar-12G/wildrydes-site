@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #333; /* Change the background color as needed */
+  color: #fff; /* Change the text color as needed */
+}
+
+.brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff; /* Change the text color as needed */
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover {
+  background-color: #555; /* Change the hover background color as needed */
+}
+
+
+/* NewProjectSection.css */
+
+.new-project-section {
+  text-align: center;
+  padding: 20px;
+  background-color: darkolivegreen; /* Set background color as needed */
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.input-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 8px;
+  width: 200px; /* Set input width as needed */
+}
+
+/* Add this to your stylesheet */
+
+/* NavBar.css */
+
+.nav-links a {
+  /* Your existing styles for normal links */
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.nav-links a.selected {
+  /* Styles for the selected link */
+  color: #007bff; /* Highlight color, for example */
+  font-weight: bold;
+}
+
+
+.send-request-btn {
+  padding: 10px 15px;
+  background-color: white; /* Set button color as needed */
+  color: black; /* Set button text color as needed */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+p {
+  margin: 20px 20% 5px 20%;
+  font-size: 1.2rem;
+}

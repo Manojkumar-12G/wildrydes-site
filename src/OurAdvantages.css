@@ -1,0 +1,49 @@
+/* OurAdvantagesSection.css */
+
+.our-advantages-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9; /* Set background color as needed */
+  }
+  
+  .our-advantages-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .our-advantages-section p {
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+  }
+  
+  .advantage-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .advantage-item {
+    width: 200px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /* .advantage-item div{
+    border-radius: 50%; 
+  } */
+
+  .our-advantages-section img {
+    width: 100%;
+    border-radius: 45%; 
+    margin-bottom: 10px;
+  }
+  
+  .our-advantages-section h3 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .our-advantages-section p {
+    font-size: 1rem;
+  }
+  
